@@ -37,10 +37,10 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'less-rails-semantic_ui'
 gem 'autoprefixer-rails'
+gem 'therubyracer'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'therubyracer'
   gem 'byebug', platform: :mri
 end
 
